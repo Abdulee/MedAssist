@@ -22,12 +22,8 @@ Med Assist es una solución de inteligencia artificial que transcribe y redacta 
     ```bash
     npm install
     ```
-2.  **Configurar la clave de API:**
-    Crea un archivo `.env.local` en la raíz del proyecto y añade tu clave de API de Gemini:
-    ```
-    GEMINI_API_KEY=TU_API_KEY
-    ```
-3.  **Ejecutar la aplicación:**
+
+2.  **Ejecutar la aplicación:**
     ```bash
     npm run dev
     ```
