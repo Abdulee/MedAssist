@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Informe from '@/imgs/Informe.png';
 
 const Solution: React.FC = () => {
   const medicalEntities = ['Cefalea tensional', 'Hipertensión arterial (HTA)', 'Ansiedad generalizada', 'Ibuprofeno 600mg', 'Revisión en 4 semanas'];
@@ -58,6 +59,13 @@ const Solution: React.FC = () => {
               <p><strong className="text-white">Plan:</strong> Se pauta tratamiento con Ibuprofeno 600mg/8h. Se solicita control de TA y se cita para revisión en 4 semanas.</p>
             </div>
           </div>
+        </div>
+
+        <div className="mt-16 text-center">
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-8">Informe Generado</h3>
+            <div className="bg-slate-900 rounded-xl border border-slate-700 shadow-2xl p-4 md:p-8">
+                <img src={Informe} alt="Informe médico generado por Med Assist" className="rounded-lg mx-auto"/>
+            </div>
         </div>
       </div>
     </section>
